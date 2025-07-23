@@ -56,10 +56,11 @@ java -version
 ```
 
 #### Expected output:
-
+```
 openjdk 21.0.7 2025-04-15 LTS
 OpenJDK Runtime Environment Temurin-21.0.7+6 (build 21.0.7+6-LTS)
 OpenJDK 64-Bit Server VM Temurin-21.0.7+6 (build 21.0.7+6-LTS, mixed mode, sharing)
+```
 
 ##### Verify JDK:
 
@@ -68,8 +69,9 @@ javac -version
 ```
 
 #### Expected output:
+```
 javac 21.0.7.
-
+```
 
 ### 3. Open Required Ports
 
