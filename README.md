@@ -18,21 +18,19 @@ Important Note: This is the inaugural testnet launch. While we strive for perfec
 
 ```
 sudo apt update 
-
 ```
 
 
 ### 2. Install Java
 
-Download OpenJDK 21.0.7 (Temurin JDK)
+#### Download OpenJDK 21.0.7 (Temurin JDK)
 
 
 ```
 wget https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.7%2B6/OpenJDK21U-jdk_x64_linux_hotspot_21.0.7_6.tar.gz
 ```
 
-
-Extract and Move
+#### Extract and Move
 
 
 ```
@@ -40,10 +38,7 @@ tar -xzf OpenJDK21U-jdk_x64_linux_hotspot_21.0.7_6.tar.gz
 mv jdk-21.0.7+6 /usr/local/java-21
 ```
 
-
-
-Set Environment Variables
-
+####Set Environment Variables
 
 ```
 export JAVA_HOME=/usr/local/java-21
@@ -54,31 +49,31 @@ source ~/.bashrc
 ```
 
 
-Verify Installation
+#### Verify Installation
 
 ```
 java -version
 ```
 
-Expecte output:
+#### Expected output:
 
 openjdk 21.0.7 2025-04-15 LTS
 OpenJDK Runtime Environment Temurin-21.0.7+6 (build 21.0.7+6-LTS)
 OpenJDK 64-Bit Server VM Temurin-21.0.7+6 (build 21.0.7+6-LTS, mixed mode, sharing)
 
-Verify JDK:bash
+##### Verify JDK:bash
 
 ```
 javac -version
 ```
 
-Expected output: javac 21.0.7.
+#### Expected output:
+javac 21.0.7.
 
 
 ### 3. Open Required Ports
 
 For UFW (Uncomplicated Firewall):
-
 
 ```
 sudo ufw allow 8231/tcp
@@ -147,7 +142,6 @@ tmux attach -t pwr
 
 
 #### Congratulations, you've now set up and run a PWR Chain validator node!
-
 
 
 
