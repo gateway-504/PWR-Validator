@@ -6,7 +6,7 @@
 
 ### Requirements
 
-- **CPU**: 2 vCPU
+- **CPU**: 2 vCPU with preferably 3GHz+ clock speed
 - **Memory**: 4 GB RAM  
 - **Disk**: 100 GB HDD or higher
 - **Bandwidth**: 500Mbps or higher
@@ -54,7 +54,7 @@ sudo netfilter-persistent save
 #### 4. Install the validator node software and config file
 
 ```bash
-wget https://github.com/pwrlabs/PWR-Validator/releases/download/15.58.2/validator.jar
+wget https://github.com/pwrlabs/PWR-Validator/releases/download/15.63.1/validator.jar
 wget https://github.com/pwrlabs/PWR-Validator/raw/refs/heads/main/config.json
 ```
 
