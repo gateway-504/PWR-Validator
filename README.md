@@ -6,7 +6,7 @@ Important Note: This is the inaugural testnet launch. While we strive for perfec
 - **CPU**: 2 Dedicated vCPU with preferably 3GHz+ clock speed
 - **Memory**: 4 GB RAM  
 - **Disk**: 100 GB HDD or higher
-- **Bandwidth**: 900Mbps or higher
+- **Bandwidth**: 800Mbps or higher
 - **Open TCP Ports**: 8231, 8085, 9864
 - **Open UDP Ports**: 7621
 
@@ -89,7 +89,7 @@ sudo ufw reload
 ### 4. Install the validator node software and config file
 
 ```
-wget https://github.com/pwrlabs/PWR-Validator/releases/download/15.63.27/validator.jar
+wget https://github.com/pwrlabs/PWR-Validator/releases/download/15.63.35/validator.jar
 wget https://github.com/pwrlabs/PWR-Validator/raw/refs/heads/main/config.json
 ```
 
